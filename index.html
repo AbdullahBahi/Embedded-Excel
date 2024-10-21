@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded Excel Sheet</title>
+    <title>Editable Excel Sheet</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -55,20 +55,20 @@
 </head>
 <body>
 
-    <h1>Embedded Excel Sheet Example</h1>
+    <h1>Editable Excel Sheet Example</h1>
     
     <div class="iframe-container">
-        <!-- Embed Excel using iframe -->
+        <!-- Embed Excel with edit mode using iframe -->
         <iframe 
-            src="https://1drv.ms/x/s!ArchQvgVMuLCbY-sSDQeoixb-ts?embed=1&em=2&range=A1:D20" 
+            src="https://onedrive.live.com/embed?resid=YOUR_EXCEL_FILE_ID&authkey=YOUR_AUTH_KEY&em=2&wdAllowInteractivity=True" 
             width="800" 
             height="600" 
             frameborder="0" 
-            scrolling="no">
+            scrolling="yes">
         </iframe>
     </div>
     
-    <p>If the Excel sheet does not load, <a href="https://onedrive.live.com/YOUR_EXCEL_FILE_LINK" target="_blank">click here to view it.</a></p>
+    <p>If the Excel sheet does not load, <a href="https://onedrive.live.com/YOUR_EXCEL_FILE_LINK" target="_blank">click here to view and edit it.</a></p>
 
 </body>
 </html>
